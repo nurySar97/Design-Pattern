@@ -65,4 +65,5 @@ let comp2 = registry.register('Elena', 'product', 'Some Error...!');
 
 
 console.log(comp1);
+
 console.log(comp2);
