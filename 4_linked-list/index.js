@@ -100,9 +100,9 @@ class LinkedList {
 
 const list = new LinkedList();
 
-const names = new Array(10).fill(0).map(() => faker.name.firstName());
+list.append(1);
+list.append(2);
+list.append(3);
+list.prepend(5);
 
-names.forEach((name) => list.append(name));
-
-console.log("names: ", names);
 console.log("list: ", list);
